@@ -7,22 +7,21 @@ a.	To install make tool, use command dnf install make
 
 #Packages required for GNUPG/GPG installation
 
-#Extension Name - libgpg-error
-Installation Manual Link - https://www.linuxfromscratch.org/blfs/view/svn/general/libgpg-error.html
-Package Download Link - https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.45.tar.bz2 
+#Extension Name - libgpg-error<br>
+#Installation Manual Link - https://www.linuxfromscratch.org/blfs/view/svn/general/libgpg-error.html<br>
+#Package Download Link - https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.45.tar.bz2 
 
+#Extension Name - libassuan<br>
+#Installation Manual Link - https://www.linuxfromscratch.org/blfs/view/svn/general/libassuan.html<br>
+#Package Download Link - https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.5.tar.bz2<br> 
 
-#Extension Name - libassuan
-Installation Manual Link - https://www.linuxfromscratch.org/blfs/view/svn/general/libassuan.html
-Package Download Link - https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.5.tar.bz2 
+#Extension Name - gpgme<br>
+#Installation Manual Link - https://www.linuxfromscratch.org/blfs/view/svn/postlfs/gpgme.html<br>
+#Package Download Link - https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.17.1.tar.bz2 <br>
 
-#Extension Name - gpgme
-Installation Manual Link - https://www.linuxfromscratch.org/blfs/view/svn/postlfs/gpgme.html
-Package Download Link - https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.17.1.tar.bz2 
-
-#Extension Name - gnupg/gpg
-Installation Manual Link - https://pecl.php.net/package/gnupg
-Package Download Link - https://pecl.php.net/get/gnupg-1.5.1.tgz 
+#Extension Name - gnupg/gpg<br>
+#Installation Manual Link - https://pecl.php.net/package/gnupg<br>
+#Package Download Link - https://pecl.php.net/get/gnupg-1.5.1.tgz<br> 
 
 #Installation of libgpg-error
 
@@ -101,4 +100,3 @@ phpize
 ./configure
 make
 sudo make install
-
