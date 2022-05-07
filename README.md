@@ -1,6 +1,6 @@
 #Pre-requisite/Command Installation
-01.	C-Compiler and PHP Dev Tool
-a.	To install C-Compiler use command, dnf install gcc
+01.	C-Compiler and PHP Dev Tool<br>
+a.	To install C-Compiler use command, dnf install gcc<br>
 b.	To install PHP Dev tool, use command dnf install php-devel
 02.	make tool
 a.	To install make tool, use command dnf install make
